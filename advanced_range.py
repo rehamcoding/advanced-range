@@ -27,8 +27,6 @@ class AdvancedRange:
         
         return value
     
-
-for x in AdvancedRange(11, 1, 1, 'even'):
-    print(x)
-
+    def reset(self):
+        self.current = self.start
 
