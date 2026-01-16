@@ -28,5 +28,6 @@ class AdvancedRange:
         return value
     
     def reset(self):
+        """Reset the iterator so iteration can start again."""
         self.current = self.start
 
